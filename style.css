@@ -1,0 +1,176 @@
+body{
+    font-family: 'Hero New', sans-serif;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.section1{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navLinks{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+div {
+    margin: 0;
+    padding: 0px;
+}
+
+div.section1{
+    padding: 40px 400px;
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageBox{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #E5E7EB;
+    padding: 80px 160px;
+    color: red;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button.signup{
+    background-color: #3882F6;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.informationHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.caption{
+    max-width: 160px;
+    text-align: center;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quoteAuthor{
+    text-align: right;
+}
+
+.s3{
+    max-width: 800px;
+
+}
+
+
+.section4{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4{
+    padding: 10px 80px;
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.actionCall{
+    font-weight: bold;
+}
+
+
+button.signup{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
